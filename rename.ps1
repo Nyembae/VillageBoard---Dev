@@ -7,7 +7,7 @@ $oldCompanyName="AbpCompanyName"
 $newCompanyName="YourCompanyName"
 
 # project name placeholder
-$oldProjectName="Villageboard"
+$oldProjectName="AbpProjectName"
 # your project name
 $newProjectName="YourProjectName"
 

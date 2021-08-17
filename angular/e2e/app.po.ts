@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class VillageboardTemplatePage {
+export class AbpProjectNameTemplatePage {
   navigateTo() {
     return browser.get('/');
   }

@@ -3,7 +3,7 @@
 $buildFolder = (Get-Item -Path "./" -Verbose).FullName
 $slnFolder = Join-Path $buildFolder "../"
 $outputFolder = Join-Path $buildFolder "outputs"
-$webHostFolder = Join-Path $slnFolder "src/Villageboard.Web.Host"
+$webHostFolder = Join-Path $slnFolder "src/AbpCompanyName.AbpProjectName.Web.Host"
 $ngFolder = Join-Path $buildFolder "../../angular"
 
 ## CLEAR ######################################################################
@@ -31,7 +31,7 @@ Copy-Item (Join-Path $ngFolder "Dockerfile") (Join-Path $outputFolder "ng")
 
 # Change UI configuration
 $ngConfigPath = Join-Path $outputFolder "ng/assets/appconfig.json"
-(Get-Content $ngConfigPath) -replace "21021", "9901" | Set-Content $ngConfigPath
+(Get-Content $ngConfigPath) -replace "44311", "9901" | Set-Content $ngConfigPath
 (Get-Content $ngConfigPath) -replace "4200", "9902" | Set-Content $ngConfigPath
 
 ## CREATE DOCKER IMAGES #######################################################

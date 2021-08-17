@@ -1,10 +1,10 @@
-import { VillageboardTemplatePage } from './app.po';
+import { AbpProjectNameTemplatePage } from './app.po';
 
-describe('Villageboard App', function() {
-  let page: VillageboardTemplatePage;
+describe('AbpProjectName App', function() {
+  let page: AbpProjectNameTemplatePage;
 
   beforeEach(() => {
-    page = new VillageboardTemplatePage();
+    page = new AbpProjectNameTemplatePage();
   });
 
   it('should display message saying app works', () => {

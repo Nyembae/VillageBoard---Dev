@@ -11,7 +11,7 @@ export class AppConsts {
     };
 
     static readonly localization = {
-        defaultLocalizationSourceName: 'Villageboard'
+        defaultLocalizationSourceName: 'AbpProjectName'
     };
 
     static readonly authorization = {
